@@ -1,8 +1,31 @@
-# Welcome to your Expo app 👋
+# Pac-Man Arcade 👻🍒
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is my first **vibecoded app** — a React Native Expo Pac-Man game built from scratch to learn game logic, UI, sound, and mobile/web development in one go.
 
-## Get started
+## What it is
+
+Pac-Man Arcade is a simple, playful Pac-Man-inspired game for Expo web and mobile. It includes:
+
+- **Arcade-style movement** with responsive controls
+- **Auto-moving ghosts** that keep the game active
+- **Dots and cherries** to collect for score
+- **Lives and restart flow** for a classic arcade feel
+- **Sound effects** for movement, eating, and game events
+- **Progressive levels** that increase the challenge over time
+
+## Why this project matters
+
+This is the first app I built using the vibe coding workflow. I used it to experiment with:
+
+- Expo and React Native structure
+- Game state and movement logic
+- Ghost AI and level-based difficulty
+- Web and mobile rendering in one codebase
+- GitHub publishing and project setup
+
+It’s not just a game — it’s a learning project that helped me turn ideas into a working app quickly.
+
+## Run it locally
 
 1. Install dependencies
 
@@ -16,41 +39,17 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+3. Open it in your browser or Expo device
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Project notes
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Built with **Expo + React Native + TypeScript**
+- Designed to run in the browser and on mobile
+- The game logic lives in `src/logic/`
+- The main screen and rendering are in `src/components/`
 
-## Get a fresh project
+## My vibe-coded journey
 
-When you're ready, run:
+This project represents my first serious attempt at building a complete app through a prompt-driven workflow. It taught me how to shape ideas into working gameplay, refine behavior, and push the result to GitHub.
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+If you want, I can also add a short **How to play** section or a **screenshots** section next.
